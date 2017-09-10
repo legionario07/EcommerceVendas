@@ -85,7 +85,7 @@ public class WebServiceUtil {
      */
     private static String getUrl() {
 
-        String URL = "http://192.168.0.101:8080/EcommerceVendasWS/webresources/";
+        String URL = "http://omniatechnology.com.br/EcommerceVendasWS/webresources/";
 
         return URL;
 

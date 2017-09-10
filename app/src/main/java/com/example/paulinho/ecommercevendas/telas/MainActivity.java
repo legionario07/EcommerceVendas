@@ -1,5 +1,6 @@
 package com.example.paulinho.ecommercevendas.telas;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -38,6 +39,10 @@ public class MainActivity extends AppCompatActivity implements Runnable{
 
         Thread t = new Thread(MainActivity.this);
         t.start();
+
+        Intent intent = new Intent(MainActivity.this, ScreenSlidePagerActivity.class);
+        startActivity(intent);
+
     }
 
 
