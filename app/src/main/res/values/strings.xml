@@ -4,4 +4,16 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_drawer">MainActivityDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="configuracao">Configuração</string>
+    <string name="compras">Compras</string>
+    <string name="estat_sticas">Estatísticas</string>
+    <string name="vendas">Vendas</string>
+    <string name="ecommercevendas">EcommerceVendas</string>
+    <string name="email">jp.ecommercevendas@gmail.com</string>
 </resources>

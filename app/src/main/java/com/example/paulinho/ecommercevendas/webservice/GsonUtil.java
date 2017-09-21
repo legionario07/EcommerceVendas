@@ -1,23 +1,24 @@
 package com.example.paulinho.ecommercevendas.webservice;
 
-import com.example.paulinho.ecommercevendas.domain.Caixa;
-import com.example.paulinho.ecommercevendas.domain.Categoria;
-import com.example.paulinho.ecommercevendas.domain.Compra;
-import com.example.paulinho.ecommercevendas.domain.EntidadeDominio;
-import com.example.paulinho.ecommercevendas.domain.Entrada;
-import com.example.paulinho.ecommercevendas.domain.ItemPedido;
-import com.example.paulinho.ecommercevendas.domain.Perfil;
-import com.example.paulinho.ecommercevendas.domain.Produto;
-import com.example.paulinho.ecommercevendas.domain.Retirada;
-import com.example.paulinho.ecommercevendas.domain.Taxa;
-import com.example.paulinho.ecommercevendas.domain.Usuario;
-import com.example.paulinho.ecommercevendas.domain.Venda;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Map;
+
+import br.com.ecommercevendas.domain.Caixa;
+import br.com.ecommercevendas.domain.Categoria;
+import br.com.ecommercevendas.domain.Compra;
+import br.com.ecommercevendas.domain.EntidadeDominio;
+import br.com.ecommercevendas.domain.Entrada;
+import br.com.ecommercevendas.domain.ItemPedido;
+import br.com.ecommercevendas.domain.Perfil;
+import br.com.ecommercevendas.domain.Produto;
+import br.com.ecommercevendas.domain.Retirada;
+import br.com.ecommercevendas.domain.Taxa;
+import br.com.ecommercevendas.domain.Usuario;
+import br.com.ecommercevendas.domain.Venda;
 
 /**
  * Created by PauLinHo on 10/09/2017.

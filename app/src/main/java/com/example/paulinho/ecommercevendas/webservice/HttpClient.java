@@ -2,8 +2,6 @@ package com.example.paulinho.ecommercevendas.webservice;
 
 import android.util.Log;
 
-import com.example.paulinho.ecommercevendas.domain.EntidadeDominio;
-import com.example.paulinho.ecommercevendas.domain.Usuario;
 import com.example.paulinho.ecommercevendas.utils.DateDeserializer;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -27,6 +25,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import br.com.ecommercevendas.domain.EntidadeDominio;
+import br.com.ecommercevendas.domain.Usuario;
 
 /**
  * Created by PauLinHo on 10/09/2017.

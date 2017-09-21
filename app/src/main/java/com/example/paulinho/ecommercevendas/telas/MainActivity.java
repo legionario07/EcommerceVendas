@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements Runnable{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtCategoria = (TextView) findViewById(R.id.txtCategoria);
+        //txtCategoria = (TextView) findViewById(R.id.txtCategoria);
         categoria = new Categoria();
 
         Thread t = new Thread(MainActivity.this);
